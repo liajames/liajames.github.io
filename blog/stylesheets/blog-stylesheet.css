@@ -1,75 +1,65 @@
-#headline1{
-  font-family: Verdana;
-  font-style: bold;
-  font-size: 25px;
-  text-align: center;
+body, div, h1, h2, h3, h4, h6, p, ul, li{
+  margin: 0;
+  padding: 0
+  border:0;
 }
-#headline2{
-  font-family: Verdana;
-  font-size: 17px;
-  text-align: center;
-}
-#date{
-  font-family: Courier;
-  font-size: 11px;
-  padding-bottom: 3px;
-  text-align: center;
-}
-#navbar {
-  text-align: right;
-  margin-right: 94px;
-  margin-top:50px;
-}
-#header{
-position:relative;
-top: -10px;
-}
-#tablestyle{
-  font-family: Verdana;
-  color: #A9A9A9;
-  display: inline-block;
-  padding: 2px;
-}
-#left{
-  float:left;
-  width: 65%;
-}
-#right{
-  float:right;
-  width:35%;
-  text-align:right;
-  margin-right: 25px;
-}
-td{
-  height:25px;
-  width: 35px;
-}
-th{
-  font-family: Verdana;
-  font-size: 1em;
-  font-weight: normal;
-  color:black;
-}
-p{
-  font-family: Verdana;
-  font-size: 13px;
-  word-spacing: 1px;
-  padding-left: 90px;
-  padding-right:90px;
-}
-#p1{
-  padding-top: 50px;
-}
-hr{
-  width: 500px;
+body{
+  font: 14px/24px 'Lato', sans-serif;
+  color: black;
 }
 a{
   color:#A9A9A9;
   text-decoration: none;
 }
 a:visted{
-  color:#CD5C5C;
+  color:#842D40;
   }
 a:hover{
-  color: black;
+  color: #C43D54;
 }
+#container{
+  width: 960px;
+  margin 0 auto;
+}
+#header{
+  overflow: hidden;
+}
+#header #navbar{
+  float: right;
+  margin: 35px 30px 0 0;
+  font-size: 14px;
+}
+#main{
+  overflow: hidden;
+  border-bottom: 15px solid #fff;
+}
+#main #content .blog-title{
+  font-family: 'Alegreya', serif;
+  font-weight: normal;
+  font-style: bold;
+  font-size: 25px;
+  text-align: center;
+  margin: 0 0 15px 0;
+}
+#main p{
+  margin: 0 0 24px 0;
+}
+#main #content .post-info{
+  float:right;
+}
+#main #side{
+  width: 263px;
+  float:left;
+  padding:15px solid white;
+}
+#main #side ul#posts{
+  list-style: none;
+  margin: 0 0 30px 0;
+}
+#main #side #h3{
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
