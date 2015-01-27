@@ -1,4 +1,4 @@
-body, div, h1, h2, h3, h4, h6, p, ul, li{
+body, div, h1, h2, h3, h4, h6, p, ul, li {
   margin: 0;
   padding: 0
   border:0;
@@ -18,8 +18,9 @@ a:hover{
   color: #C43D54;
 }
 #container{
+  overflow: hidden;
   width: 960px;
-  margin 0 auto;
+  margin: 0 auto;
 }
 #header{
   overflow: hidden;
@@ -29,9 +30,16 @@ a:hover{
   margin: 35px 30px 0 0;
   font-size: 14px;
 }
-#main{
-  overflow: hidden;
+#main {
+  float: left;
   border-bottom: 15px solid #fff;
+}
+#main {
+  width: 65%;
+}
+#side {
+  float:right;
+  width: 35%;
 }
 #main #content .blog-title{
   font-family: 'Alegreya', serif;
